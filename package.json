@@ -1,0 +1,26 @@
+{
+  "name": "colorful-dashboard",
+  "version": "1.0.0",
+  "description": "A colorful static dashboard built in React.",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify src/main.jsx -v -t [ babelify --presets [ react ] ] -o public/js/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mperng/colorful-dashboard.git"
+  },
+  "author": "mperng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mperng/colorful-dashboard/issues"
+  },
+  "homepage": "https://github.com/mperng/colorful-dashboard#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "watchify": "^3.7.0"
+  }
+}
